@@ -13,18 +13,18 @@ public class WorkflowsMenu : IMenuProvider
             new()
             {
                 Icon = Icons.Material.Outlined.Schema,
-                Text = "Workflows",
+                Text = "工作流",
                 GroupName = MenuItemGroups.General.Name,
                 SubMenuItems =
                 {
                     new MenuItem()
                     {
-                        Text = "Definitions",
+                        Text = "工作流管理",
                         Href = "workflows/definitions"
                     },
                     new MenuItem()
                     {
-                        Text = "Instances",
+                        Text = "工作流实例",
                         Href = "workflows/instances"
                     },
                 }

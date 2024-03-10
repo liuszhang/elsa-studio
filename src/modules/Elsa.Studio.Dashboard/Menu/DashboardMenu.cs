@@ -15,7 +15,7 @@ public class DashboardMenu : IMenuProvider
             {
                 Icon = Icons.Material.Outlined.SpaceDashboard,
                 Href = "",
-                Text = "Dashboard",
+                Text = "ÒÇ±í°å",
                 GroupName = MenuItemGroups.General.Name,
                 Match = NavLinkMatch.All
             }
